@@ -19,3 +19,5 @@ It does not matter what the nodes are called, but the child nodes must have at l
 The program makes use of Java's DOM api in order to read and evaluate the xmlcontent data.
 
 The final assumption is that, if no arguments are provided at the command line, the file containing the xml data will be called "webcontent.xml".
+
+As for output, the program creates a treeview of all the pages represented in the xml content file. It then spits the tree out into a .csv file. This file was to be the migration map of the site, as the program was created to automate its production.
