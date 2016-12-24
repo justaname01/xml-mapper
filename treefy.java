@@ -21,7 +21,7 @@ public class treefy
 		ArrayList<PageNode> ded = new ArrayList<PageNode>();
 		try
 		{
-			FileInputStream fis = new FileInputStream("webcontent.xml");
+			FileInputStream fis = new FileInputStream(fName);
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			Document sitemap = dbf.newDocumentBuilder().parse(fis);
 			Element root = sitemap.getDocumentElement();
