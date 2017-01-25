@@ -1,5 +1,5 @@
 # xml-mapper
-A program I wrote to read in xml data and spit out a migration map
+A program I wrote to read in xml data and spit out a migration map. I am currently working to generalize it for any hierarchy of nodes.
 
 It makes the assumption that the xml document is organized as follows:
 
